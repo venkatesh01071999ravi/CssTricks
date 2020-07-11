@@ -1,0 +1,36 @@
+.comments1{
+
+        white-space: nowrap;
+
+}
+
+
+.comments-prefix{
+
+    font-family: Ringside Regular A,Ringside Regular B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #7a7a8c;   
+
+
+
+}
+
+.comments-link{
+
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    padding-right: 30px;
+    font-size:0.9rem;
+    text-decoration: none;
+    color: white;
+
+}
+.to{
+
+    padding-left: 5px;
+    font-size: 15px;
+    color: tomato;
+
+}

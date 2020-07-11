@@ -1,0 +1,78 @@
+.sticky-sidebar-stuff {
+
+    position: sticky;
+    top: 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+
+}
+
+.showing{
+
+    opacity: 1;
+    visibility: visible;
+    transition: .3s;
+
+}
+
+.fem-ad {
+
+    background: #1f1f1f;
+    color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.fem-ad .fem-header {
+
+    background: linear-gradient(90deg,#c02d28,#e66225);
+
+}
+
+.fem-ad .fem-header-inner {
+
+    background: rgba(0,0,0,.7);
+    padding: 1rem;
+}
+
+.fem-ad .fem-learning-partner {
+
+    font-size: .5rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .13rem;
+    text-align: center;
+    margin: 0 0 .5rem;
+
+}
+
+.fem-ad .fem-message a {
+
+    color: #fff;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: #b72a27;
+}
+
+.fem-ad .fem-logo {
+
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.fem-ad .fem-message {
+
+    padding: 1.5rem;
+    color: #d8d8d8;
+    font-size: .6rem;
+}
+
+.fem-ad h4 {
+
+    font-size: 1.1rem;
+    color: #fff;
+    line-height: 1.05;
+}

@@ -1,0 +1,58 @@
+.popular-header {
+
+    margin: 3rem 0;
+    
+}
+.header-card{
+
+    background-image: linear-gradient(0deg,#ff8a00,#e52e71);
+    position: relative;
+    border-radius: 16px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex:0 0 320px;
+    margin-left: 1rem;
+    width: 200px;
+    height: 350px;
+    
+
+}
+
+.header-card p {
+    margin: 0;
+    font-size: .8rem;
+}
+
+.header-card-title {
+    font-size: 1.6rem;
+    margin: 0 0 0.4rem;
+}
+
+.header-card-sponsor {
+    color: #ffb4b4;
+    padding-bottom: 0;
+}
+
+.header-card-sponsor a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+   
+}
+
+@media (max-width: 1200px){
+    .header-card {
+        
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        width: 90px;
+        padding-right: 2.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: safe;
+}
+}
+
+

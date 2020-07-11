@@ -1,0 +1,76 @@
+.about{
+
+    display: flex;
+    padding: 1.5rem;
+    margin-top: 5rem 2rem;
+
+}
+
+.about-founder{
+
+    color: gray;
+    font-size: 18px;
+    padding: 1rem;
+    max-width: 750px;
+
+}
+
+.about span{
+
+    color: orange;
+
+
+}
+
+.about a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.about a:hover{
+
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.nav h2{
+
+    width: 100%;
+
+
+}
+
+.nav{
+
+    display: flex;
+    margin-left: 4rem;
+    flex-wrap: wrap;
+    max-width: 300px;
+    padding: 0.5rem;
+}
+
+.navs{
+
+    width: 50%;
+
+}
+
+@media(max-width:800px){
+
+    .about{
+
+        flex-wrap: wrap;
+
+
+    }
+    .about-founder{
+
+        margin-left:40px;
+
+    }
+
+}

@@ -1,0 +1,26 @@
+.side-articles{
+
+    margin: 0; 
+    display: block;
+
+}
+
+.all-ads{
+
+    height: 100%;
+
+
+}
+
+
+
+@media (max-width: 800px){
+
+    .side-articles {
+
+        display: none;
+        transition: 0.2s;
+
+    }
+
+}

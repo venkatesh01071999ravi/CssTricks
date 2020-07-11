@@ -1,0 +1,47 @@
+.few-more-articles{
+
+    display: grid;
+    grid-template-columns: 300px minmax(0,1fr);
+    grid-gap: 5.33rem;
+    
+
+}
+
+
+.side-articles{
+
+    margin: 0;   
+
+
+}
+
+.all-ads{
+
+    height: 100%;
+
+
+}
+
+
+@media (max-width: 1200px){
+
+    .few-more-articles {
+        grid-gap: 4rem;
+    }
+
+}
+
+@media (max-width: 800px){
+
+    .side-articles {
+        
+        display: none;
+
+    }
+    .few-more-articles{
+
+        display: block;
+
+    }
+
+}

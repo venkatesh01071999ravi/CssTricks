@@ -1,0 +1,40 @@
+.grid-article-profile{
+
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    align-items: center;
+    margin: 3rem 0 0;
+    font-size: 14px;
+
+}
+
+.author-image{
+
+    grid-area: auto;
+
+}
+
+.small-image{
+
+    width: 40px!important;
+    height: 40px!important;
+    border-radius: 50%;
+    border-bottom: 3px tomato solid;
+
+
+}
+
+.author-name-small{
+
+    grid-area: auto;
+
+}
+
+.author-name-prefix{
+
+    font-family: Ringside Regular A,Ringside Regular B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #7a7a8c;
+}
+

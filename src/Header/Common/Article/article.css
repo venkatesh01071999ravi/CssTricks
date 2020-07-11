@@ -1,0 +1,36 @@
+.article1{
+
+  width:15%;
+  display: flex;
+  margin-left: 10px;
+  padding-right:18px;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #201c29;
+
+}
+
+.article1 a{
+
+        display: flex;
+        width: 60%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        outline: none;
+        border: none;
+        
+
+}
+@media(max-width:554px){
+
+  .article1-img{
+
+          width:60px;
+
+  }
+
+
+}
+

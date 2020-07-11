@@ -1,0 +1,34 @@
+
+.popular-slider{
+
+    padding: 3rem;
+    padding-bottom: 4rem;
+    display: flex;
+    overflow-x: scroll;
+    
+}
+
+.popular-slider::-webkit-scrollbar{
+
+    width: 7px;
+    height: 7px;
+    background-color:#201c29;
+    border-radius: 5px;
+
+}
+
+.popular-slider::-webkit-scrollbar-thumb {
+    background:#201c29;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+@media (max-width: 1200px){
+
+    .popular-slider {
+    
+    overflow-x: visible;
+
+}
+
+}

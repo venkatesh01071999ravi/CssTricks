@@ -1,0 +1,43 @@
+@media (min-width: 800px){
+
+    .article-1 {
+
+        grid-column: 5/6;
+        grid-row: 1/2;
+        border-top: var(--borderWidth) solid #e52e71;
+        border-left: var(--borderWidth) solid #e52e71;
+        border-right: 1px solid #201c29;
+        border-bottom: 1px solid #201c29;
+        border-top-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        transform: translateX(calc(var(--borderWidth)*-1));
+        position: relative;
+        padding: 1.5rem;
+        background: #100e17;
+        display: flex;
+        flex-direction: column;
+        font-size: .75rem;
+
+}
+ 
+}
+
+@media (max-width: 800px){
+
+    .article-1 {
+
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #201c29;
+        color: #a1a1af;
+        flex: 0 0 250px;
+        scroll-snap-align: center;
+        box-shadow: 4px 0 80px #000;
+        padding: 1rem;
+        margin-right: 1rem;
+        border-radius: 16px;
+}
+}
+

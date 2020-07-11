@@ -1,0 +1,38 @@
+.footer-down{
+
+
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+
+
+}
+
+.footer-down-image{
+
+    display: flex;
+    margin-left:-7px ;
+    width: 350px;
+
+
+}
+
+@media(max-width:1040px){
+
+    .footer-down-image{
+
+        width: 55%;
+        height:270px;
+
+    }
+    .footer-down{
+
+        flex-wrap: wrap;
+
+    }
+
+
+
+}

@@ -1,0 +1,164 @@
+.main-mini-card{
+
+    width: 300px;
+    height: 350px;
+    margin-bottom: 12px;
+    transition: 0.2s;
+
+}
+
+.main-mini-card:hover {
+    transform: translateY(-1rem);
+}
+
+.main-mini-card:hover~.main-mini-card {
+    transform: translateX(100px);
+}
+
+
+.mini-card {
+    min-width: 100%;
+    min-height: 100%;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: #17141d;
+    box-shadow: -1rem 0 3rem #000;
+    display: flex;
+    flex-direction: column;
+    transition: .2s;
+    margin: 0;
+}
+
+.main-mini-card:not(:first-child) {
+
+        margin-left: -50px;
+    
+}
+
+
+.mini-article-card-header {
+
+    margin-bottom: auto;
+    
+
+}
+
+.mini-article-subhead {
+    
+    font-size: 14px;
+    margin: 0 0 1rem;
+}
+
+.mini-article-card-header time{
+
+    margin-left: 5px;
+
+}
+
+.mini-article-card-title a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.mini-article-card-title a:hover{
+
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.mini-card h2 {
+    
+    font-size: 20px;
+    margin: .25rem 0 auto;
+}
+
+.mini-article-meta {
+
+    font-size: 14px;
+    
+}
+
+.mini-article-byline {
+
+    margin: 3rem 0 0;
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    align-items: center;
+}
+
+.mini-article-byline .author-avatar {
+
+    grid-area: auto;
+}
+
+.mini-article-meta .author-avatar img {
+
+    width: 50px;
+    height: 40px!important;
+}
+
+
+
+.author-avatar img {
+    
+    border-radius: 50%;
+    width: 70px;
+    height: 60px!important;
+    display: block;
+    overflow: hidden;
+    margin: 16px 5px;
+    border-bottom: 5px solid tomato;
+}
+
+.tags {
+
+    margin: 1rem 0 2rem;
+    padding: .5rem 0 0.5rem;
+    line-height: 1;
+    flex-wrap: wrap;
+    
+}
+.tags a {
+    color: #7a7a8c;
+    text-transform: uppercase;
+    font-size: .66rem;
+    border: 3px solid #28242f;
+    border-radius: 2rem;
+    padding: .2rem .85rem .25rem;
+    text-decoration: none;
+}
+
+@media (max-width: 1200px){
+
+    .main-mini-card {
+        scroll-snap-align: start;
+        width: 220px;
+    }
+    .main-mini-card:not(:first-child) {
+    margin-left: -30px;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    .main-mini-card:hover~.main-mini-card {
+        transform: translateX(80px);
+    }
+}
+
+@media (max-width: 800px){
+    
+    .main-mini-card {
+         width: 190px;
+    }
+    .main-mini-card:not(:first-child) {
+        margin-left: -10px;
+    }
+    .main-mini-card:hover~.main-mini-card {
+        transform: translateX(50px);
+    }
+}
+

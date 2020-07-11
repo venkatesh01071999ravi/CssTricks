@@ -1,0 +1,15 @@
+.grid-article-content h3{
+
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+    white-space:wrap;
+  
+}
+
+.grid-article-content a{
+
+    text-decoration: none;
+    color: white;
+
+
+}

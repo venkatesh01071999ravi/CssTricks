@@ -1,0 +1,29 @@
+.photo {
+    align-self: start;
+    position: relative;
+    border-bottom: 5px solid tomato;
+    box-sizing: border-box;
+    border-radius:50% ;
+    width: 70px;
+    height: 85px;
+}
+
+.photo a{
+
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px!important;
+    display: block;
+    overflow: hidden;
+    margin: 16px 5px;
+    filter: grayscale(100%);
+    
+}
+

@@ -1,0 +1,30 @@
+.main-article-content{
+
+    overflow-wrap: break-word;
+    margin: 0 0 1.5rem;
+    border-radius: 8px;
+
+}
+
+.main-article-content a{
+
+    text-decoration: underline;
+    text-decoration-color: #a2dffb;
+    color: white;
+
+
+}
+
+.read-more{
+
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    text-decoration-color: #ff8a00!important;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.read-more::before{
+    
+        white-space: pre;
+        content: "\A\A";
+    
+}

@@ -1,0 +1,11 @@
+.few-article-data{
+
+    
+        font-size: .7rem;
+        display: grid;
+        grid-template-columns: 70px min-content min-content;
+        grid-gap: .25rem 2.5rem;
+        align-items: center;
+        margin: 0 0 1.5rem;
+
+}

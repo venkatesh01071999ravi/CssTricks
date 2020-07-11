@@ -1,0 +1,21 @@
+.header-div{
+
+        width:100vw;
+        height:100px;
+        position: relative;
+        display:flex;
+        justify-content: stretch;
+        border-bottom: 1px solid #201c29;     
+
+}
+
+.middle-article{
+
+    
+     width:53%;
+     display: flex;
+     justify-content: stretch;
+
+
+}
+

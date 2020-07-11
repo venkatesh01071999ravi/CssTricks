@@ -1,0 +1,32 @@
+#root{
+
+    width: 100vw;
+    height: 100vh;
+}
+.main-page{
+
+        width:100vw;
+        height: 100vh;
+
+}
+
+.main-down-wrap {
+    position: relative;
+    height: 100vh;
+}
+
+.main-down-wrap::after{
+    box-sizing: border-box;
+}
+
+.main-down-wrap::before{
+    box-sizing: border-box;
+}
+
+.main-article{
+
+    margin: 0 auto;
+    padding: 1rem;
+    
+
+}
